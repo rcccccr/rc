@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>林芮岑 | 個人作品集 & 經歷</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap');
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 leading-relaxed">
+
+    <!-- Header / Navbar -->
+    <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md shadow-sm border-b border-slate-100">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold text-sky-600 tracking-wide">林芮岑 <span class="text-xs font-normal text-slate-500">Portfolio</span></a>
+            <nav class="hidden md:flex space-x-6 text-sm font-medium text-slate-600">
+                <a href="#about" class="hover:text-sky-600 transition">關於我</a>
+                <a href="#volunteer" class="hover:text-sky-600 transition">志工與服務經歷</a>
+                <a href="#skills" class="hover:text-sky-600 transition">個人特質</a>
+                <a href="#contact" class="hover:text-sky-600 transition">聯絡資訊</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="about" class="py-20 bg-gradient-to-b from-sky-50 to-slate-50">
+        <div class="max-w-5xl mx-auto px-6 grid md:grid-cols-3 gap-8 items-center">
+            <div class="md:col-span-2">
+                <span class="inline-block bg-sky-100 text-sky-700 text-xs font-semibold px-3 py-1 rounded-full mb-4">歡迎來到我的個人網站</span>
+                <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-4 tracking-tight">
+                    你好，我是 <span class="text-sky-600">林芮岑</span>
+                </h1>
+                <p class="text-lg text-slate-600 mb-6">
+                    熱情、主動且具備高度服務熱忱。曾擔任羅東高中同青社志工，積極參與各項社會服務活動，具備良好的團隊合作與溝通協調能力。
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#volunteer" class="bg-sky-600 hover:bg-sky-700 text-white font-medium px-6 py-3 rounded-lg shadow-md hover:shadow-lg transition">
+                        查看志工經歷
+                    </a>
+                    <a href="#contact" class="bg-white hover:bg-slate-100 text-slate-700 font-medium px-6 py-3 rounded-lg border border-slate-200 transition">
+                        聯絡我
+                    </a>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <div class="w-48 h-48 md:w-56 md:h-56 rounded-full bg-gradient-to-tr from-sky-400 to-indigo-500 p-1 shadow-xl">
+                    <div class="w-full h-full bg-white rounded-full flex items-center justify-center text-sky-600 text-6xl font-bold">
+                        芮岑
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Volunteer & Certificates Section -->
+    <section id="volunteer" class="py-16 max-w-5xl mx-auto px-6">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-slate-900 mb-2">志工與社會服務</h2>
+            <p class="text-slate-500">以實際行動服務社會，展現責任與熱情</p>
+        </div>
+
+        <!-- Award Card -->
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden mb-8 transition hover:shadow-md">
+            <div class="md:flex">
+                <div class="md:w-1/2 bg-slate-100 flex items-center justify-center p-6 border-b md:border-b-0 md:border-r border-slate-100">
+                    <div class="text-center p-8 bg-sky-50/50 rounded-xl border border-sky-100 w-full">
+                        <i class="fa-solid font-award text-sky-500 text-5xl mb-3"></i>
+                        <h4 class="font-bold text-lg text-slate-800">國際同濟會台灣總會</h4>
+                        <p class="text-sm text-slate-500">48屆 北一區感謝狀</p>
+                    </div>
+                </div>
+                <div class="md:w-1/2 p-8 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center space-x-2 text-sky-600 text-sm font-semibold mb-2">
+                            <i class="fa-regular fa-calendar-alt"></i>
+                            <span>民國 111 年 1 月 ～ 111 年 6 月</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">羅東高中同青社志工服務</h3>
+                        <p class="text-slate-600 text-sm mb-4 leading-relaxed">
+                            於服務期間擔任國際同濟會台灣總會 48 屆北一區羅東高中同青社志工，積極投入各項社會服務活動，服務時數達 <strong class="text-sky-600">22 小時</strong>。表現特優，任勞任怨。
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+                        <span>頒發單位：羅東會 會長 劉柏村</span>
+                        <span class="bg-amber-50 text-amber-600 px-2 py-1 rounded font-medium">特頒此狀 以茲鼓勵</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Experience Highlights Grid -->
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-white p-6 rounded-xl border border-slate-100 shadow-sm">
+                <div class="w-12 h-12 bg-sky-100 text-sky-600 rounded-lg flex items-center justify-center text-xl font-bold mb-4">
+                    <i class="fa-solid fa-hands-holding-child"></i>
+                </div>
+                <h4 class="font-bold text-slate-800 mb-2">社會服務精神</h4>
+                <p class="text-sm text-slate-500">主動關懷社會議題，願意投入時間與精力協助關懷弱勢與社區推廣活動。</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl border border-slate-100 shadow-sm">
+                <div class="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-lg flex items-center justify-center text-xl font-bold mb-4">
+                    <i class="fa-solid fa-users"></i>
+                </div>
+                <h4 class="font-bold text-slate-800 mb-2">團隊協作能力</h4>
+                <p class="text-sm text-slate-500">在同青社團隊活動中，具備良好的溝通能力，能有效與團隊成員合作達成服務目標。</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl border border-slate-100 shadow-sm">
+                <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-lg flex items-center justify-center text-xl font-bold mb-4">
+                    <i class="fa-solid fa-clock"></i>
+                </div>
+                <h4 class="font-bold text-slate-800 mb-2">持續與負責</h4>
+                <p class="text-sm text-slate-500">持續累積服務時數達 22 小時，展現高度的責任感、耐心與任勞任怨的服務態度。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Traits Section -->
+    <section id="skills" class="py-16 bg-slate-100/60">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-slate-900 mb-2">核心特質與能力</h2>
+                <p class="text-slate-500">個人優勢與特質分析</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+                <div class="bg-white p-6 rounded-xl shadow-sm">
+                    <div class="flex justify-between mb-2">
+                        <span class="text-sm font-semibold text-slate-700">團隊合作與溝通</span>
+                        <span class="text-sm text-sky-600 font-medium">90%</span>
+                    </div>
+                    <div class="w-full bg-slate-100 rounded-full h-2.5">
+                        <div class="bg-sky-600 h-2.5 rounded-full" style="width: 90%"></div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-sm">
+                    <div class="flex justify-between mb-2">
+                        <span class="text-sm font-semibold text-slate-700">社會服務熱忱</span>
+                        <span class="text-sm text-sky-600 font-medium">95%</span>
+                    </div>
+                    <div class="w-full bg-slate-100 rounded-full h-2.5">
+                        <div class="bg-sky-600 h-2.5 rounded-full" style="width: 95%"></div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-sm">
+                    <div class="flex justify-between mb-2">
+                        <span class="text-sm font-semibold text-slate-700">責任感與執行力</span>
+                        <span class="text-sm text-sky-600 font-medium">88%</span>
+                    </div>
+                    <div class="w-full bg-slate-100 rounded-full h-2.5">
+                        <div class="bg-sky-600 h-2.5 rounded-full" style="width: 88%"></div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-sm">
+                    <div class="flex justify-between mb-2">
+                        <span class="text-sm font-semibold text-slate-700">問題解決能力</span>
+                        <span class="text-sm text-sky-600 font-medium">85%</span>
+                    </div>
+                    <div class="w-full bg-slate-100 rounded-full h-2.5">
+                        <div class="bg-sky-600 h-2.5 rounded-full" style="width: 85%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 max-w-5xl mx-auto px-6">
+        <div class="bg-sky-600 text-white rounded-3xl p-8 md:p-12 text-center shadow-xl">
